@@ -1,0 +1,176 @@
+body{
+    background-color: #292929;
+}
+
+h1{
+    position: relative;
+    top: 50px;
+    left:90px;
+    color: white;
+}
+
+p{
+    position: relative;
+    top: 50px;
+    left: 90px;
+    color: yellow;
+}
+
+h3{
+  position: relative;
+  color: white;
+  top: 35px;
+  left: 90px;
+}
+
+/* para selecionar meu elemento ID # e para selecionar class uso .*/
+
+#mensagem{
+    position: relative;
+    top: 130px;
+    left: 260px;
+    border: none;
+    background-color: #292929;
+    width: 400px;
+    height: 200px;
+    resize: none; /*essa tag desabilita ao usuario alterar o tamanho a caixa e também tira o icone*/
+    border-radius: 19px;
+    background: #292929;
+    box-shadow:  18px 18px 44px #1d1d1d, -18px -18px 44px #353535;
+    padding: 15px;
+    color: white;
+}
+#mensagem::placeholder{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+#resultado{
+    position: relative;
+    top: 130px;
+    left: -90px;
+    border: none;
+    background-color: #292929;
+    width: 400px;
+    height: 200px;
+    resize: none; /*essa tag desabilita ao usuario alterar o tamanho a caixa e também tira o icone*/
+    border-radius: 19px;
+    background: #292929;
+    box-shadow:  18px 18px 44px #1d1d1d, -18px -18px 44px #353535;
+    padding: 15px;
+    color: white;
+}
+
+#resultado::placeholder{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Criptografar{
+    position: relative;
+    top: 230px;
+    left: -40px;
+    width: 140px;
+    border: 2px solid transparent;
+    background-color: #292929;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    animation: pulse-border 2s infinite;
+}
+
+@keyframes pulse-border {
+  0% {
+    border-color: white;
+  }
+  50% {
+    border-color: #292929;
+  }
+  100% {
+    border-color: white;
+  }
+}
+
+#Descriptografar{
+    position: relative;
+    top: 230px;
+    left: 100px;
+    border: 2px solid transparent;
+    background-color: #292929;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    animation: pulse-border 2s infinite;
+}
+
+@keyframes pulse-border {
+  0% {
+    border-color: white;
+  }
+  50% {
+    border-color: #292929;
+  }
+  100% {
+    border-color: white;
+  }
+}
+
+input[type="number"]#offset {
+    position: relative;
+    top: -140px;
+    left: -170px;
+    background-color: #292929;
+    border-color: yellow;
+    border-radius: 5px;
+    width: 175px;
+    height: 20px;
+    color: white;
+  }
+ 
+  label[for="offset"] {
+    position: relative;
+    top: -130px;
+    left: -160px;
+    color: #FFFFFF;
+  }
+
+  #instrução {
+    color: yellow;
+  }
+
+  #offset::placeholder{
+    color: white;
+    font-size: 12px; /* comando ajusta tamanho da fonte*/
+  }
+
+  #Limpar{
+    position: relative;
+    top: 20px;
+    left: -150px;
+    border: 2px solid transparent;
+    background-color: #292929;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    animation: pulse-border 2s infinite;
+}
+
+@keyframes pulse-border {
+  0% {
+    border-color: white;
+  }
+  50% {
+    border-color: #292929;
+  }
+  100% {
+    border-color: white;
+  }
+}

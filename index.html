@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" /> <!-- esta tag vai linkar meu html com meu CSS -->
+ </head>
+  <body>
+    <h1>Secret Person</h1>
+    <h3>Sua mensagem de forma simples e segura!</h3>
+    <p>Para ter uma melhor experiência, por gentileza digite apenas letras maiúsculas e sem acento.</p>
+    <label for="mensagem"></label> <!-- A tag label tem o objetivo de ajudar na usabilidade da pág. É usada para associar elementos de entrada de dados
+    ex:campos de texto, botão, ou caixa de seleção.-->
+    <textarea id="mensagem" placeholder="Digite sua mensagem aqui"></textarea> 
+    <label for="offset"></label>
+    <input type="number" id="offset" placeholder="Digite o deslocamento aqui">
+    <button id="Criptografar">Criptografar</button>
+    <button id="Descriptografar">Descriptografar</button>
+    <button id="Limpar">Limpar</button>
+    <label for="resultado"></label>
+    <textarea id="resultado" placeholder="O resultado aparecerá aqui"></textarea>
+    <script src="cipher.js"></script>
+    <script src="index.js" type="module"></script> 
+  </body>
+</html>
